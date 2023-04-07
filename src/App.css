@@ -1,0 +1,244 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.subheader{
+  
+  box-shadow: rgba(15, 13, 13, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(19, 16, 16, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  position: absolute;
+  border-radius: 30px;
+  margin-bottom: 20px;
+  background-color:#6600ff !important;
+  margin:10px
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+.indicator{
+  bottom: 0;
+  right:40%;
+  display:flex;
+  background-color: #39ff6e00 !important;
+  color:black !important;
+  gap:10px
+}
+.active{
+
+  color:rgb(192, 19, 19) !important;
+  font-size: 32px !important;
+
+}
+
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+  color:#6600ff !important;}
+  .MuiTabs-indicator {
+   
+    background-color:#6600ff  !important;
+  border-radius: 25px;}
+
+.startpage{
+width:80%;
+height: 100vh;
+object-fit:cover;
+border-radius: .5%;
+align-self: center;
+display: flex;
+
+margin-left: auto;
+margin-right: auto;
+
+  background-image: #6600ff;
+  background-size:cover ;
+  border-radius: 25px;
+}
+
+
+.startpageContent{
+  width:73%;
+  height: 40vh;
+   
+  border-radius: .5%;
+  align-self: center;
+ justify-content: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30%;
+ padding: 5px;
+  display: flex;justify-content: space-between;
+   flex-wrap: wrap; 
+   border-radius: 25px;
+   
+  }
+  /* .css-14icu1e-MuiPaper-root{
+    background-color: #bdf10d !important;
+    border-radius: 40px;
+  }  */
+  .startpageContentButton{
+    width:50vw;
+    height: 35%;
+    
+    border-radius: 25px;
+   margin: 10px;
+   
+   padding: 20px;
+    background-color:#6600ff;
+   
+    
+      
+    }
+  
+.startpageContentButton:hover{
+  background-color: rgba(255, 251, 251, 0.123);
+  border-radius: 20px;
+  
+}
+.containers{
+  background-color: #6600ff;
+  width:95vw;
+  height: fit-content;
+
+}
+.containers .desc{
+  overflow-y :scroll ;
+  
+ 
+}
+.containers div{
+  width:50%;
+  height: 80vh;
+}
+.containers div:nth-child(1)::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+	background-color: #6600ff;
+}
+
+.containers div:nth-child(1)::-webkit-scrollbar
+{
+  display:none;
+	width: 10px;
+	background-color: #6600ff;
+}
+
+.containers div:nth-child(1)::-webkit-scrollbar-thumb
+{
+	background-color:#6600ff;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, 1) 0%,
+											  rgba(0, 0, 0, 1) 25%,
+											  transparent 100%,
+											  rgba(0, 0, 0, 1) 75%,
+											  transparent)
+}
+
+.button-back {
+  align-items: center;
+  
+background: #6600ff;
+  
+border: solid thin white;
+  border-radius: 80px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "Codec cold",sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  height: 54px;
+  justify-content: space-between;
+  letter-spacing: 10px;
+  line-height: 1;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  align-self: flex-end;
+  justify-self: center;
+ width:8%;
+ margin:20px;
+ display: inline-block;
+ position: fixed;
+ bottom: 0;
+  left: 0;
+}
+
+.button-next {
+  align-items: center;
+  
+background:#6600ff;
+  
+border: solid thin white;
+  border-radius: 80px;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: "Codec cold",sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  height: 54px;
+  justify-content: space-between;
+  letter-spacing: 10px;
+  line-height: 1;
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  align-self: flex-end;
+  justify-self: center;
+ width:8%;
+ margin:20px;
+ display: inline-block;
+ position: fixed;
+ bottom: 0;
+  right: 0;
+}
