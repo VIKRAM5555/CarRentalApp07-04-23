@@ -33,7 +33,7 @@ export function Signin() {
       },
       validationSchema,
       onSubmit: (value) => {
-        setUsernameData(value.UserName);
+       
         let req = {
           method: "POST", // *GET, POST, PUT, DELETE, etc.
 
@@ -55,6 +55,10 @@ export function Signin() {
               ? navigate("/scrollanimation")
               : alert(data.msg);
             setUserDataFromDB(data.userdata);
+          });
+         .catch((error) => {
+            alert("Successful Login");
+            console.error(error);
           });
         console.log(UsernameData);
       },
