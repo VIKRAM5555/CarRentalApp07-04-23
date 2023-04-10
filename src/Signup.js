@@ -70,7 +70,7 @@ export default function SignupPage() {
       <form
         onSubmit={handleSubmit}
         className="App-header"
-        style={{ display: "flex", gap: "50px", background: "#6600ff" }}
+        style={{ display: "flex", gap: "50px", background: "silver" }}
       >
         <Typography
           variant="h5"
