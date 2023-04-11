@@ -115,7 +115,7 @@ export default function SignupPage() {
                 position="start"
                 onClick={() => setIsVisible(!isVisible)}
               >
-              {isVisible ? <VisibilityOff /> : <Visibility />}
+              {isVisible ? <Visibility /> : <VisibilityOff />}
               </IconButton>
             ),
           }}
