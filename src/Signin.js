@@ -117,7 +117,7 @@ export function Signin() {
                 onClick={() => setIsVisible(!isVisible)}
                 position="end"
               >
-                {!isVisible ? <Visibility /> : <VisibilityOff />}
+                {isVisible ? <VisibilityOff /> : <Visibility />}
               </IconButton>
             ),
           }}
