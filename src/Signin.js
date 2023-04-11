@@ -117,12 +117,12 @@ export function Signin() {
                 onClick={() => setIsVisible(!isVisible)}
                 position="end"
               >
-                {isVisible ? <VisibilityOff /> : <Visibility />}
+                 {isVisible ? <Visibility /> : <VisibilityOff />}
               </IconButton>
             ),
           }}
           variant="outlined"
-          type={isVisible ? "password" : "text"}
+          type={isVisible ? "text" : "password"}
           onChange={handleChange}
           onBlur={handleBlur}
         />
